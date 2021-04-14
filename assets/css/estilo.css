@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap');
+.navbar-nav > li > a, .navbar-brand {
+  padding-top:0 !important; padding-bottom:0 !important;
+  height: 25px; /* aqui escoges el alto que necesites */
+}
+.navbar {
+  min-height:80px !important; /* aqui escoges el alto que necesites */
+}
+.logo-sirdo{
+  margin-top: -15%;
+}
+
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+    background-color: #3cb371;
+    color: white;
+    -webkit-box-shadow: -7px 10px 50px -22px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 10px 50px -22px rgba(0,0,0,0.75);
+box-shadow: -7px 10px 50px -22px rgba(0,0,0,0.75);
+ /*    -webkit-box-shadow: -7px 10px 50px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 10px 50px -4px rgba(0,0,0,0.75);
+box-shadow: -7px 10px 50px -4px rgba(0,0,0,0.75); */
+}
+div.cl-crd{
+  background-color: #2e0638;
+  border: 1px solid black;
+  opacity: 0.8;
+
+}
+div.cl-crd{
+  border: none;
+}
+.cl-crd h3 {
+  font-weight: bold;
+  color: #ffffff;
+}.cl-crd h6 {
+  font-weight: bold;
+  color: #ffffff;
+}
+a{
+    background-color: powderblue;
+    transition: background-color .2s;
+}
+a:hover {
+    background-color: gold;
+  }
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: #ffffff;/* rgb(255,102,203); */
+} 
+.txt-alert{
+  margin-top: 1.2%;
+}
+.txt-alert >h3{
+ /*  margin-top: 1%; */
+  /* font-family: 'Nerko One', cursive */
+}
+/* .car{
+  -webkit-box-shadow: -2px 11px 50px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 11px 50px -5px rgba(0,0,0,0.75);
+box-shadow: -2px 11px 50px -5px rgba(0,0,0,0.75);
+} */
+.event-tit{
+  font-family: 'Amaranth', sans-serif;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+.stil-img{
+margin-left: auto;
+margin-right: auto;
+display: block;
+width:250px ;
+height:250px ;
+}
+.fund-hum{
+  margin-top: 2%;
+}
+div.card{
+  border: none;
+}
+.sec-1{
+  width: 100%;
+  height: 309px;
+}
+/* SECCION RADIO RAZA */
+.tit-sirdo{
+  margin-top:2%;
+ /*  margin-bottom: px-85; */
+}
+.box-rad{
+  margin-top: 2%;
+  -webkit-box-shadow: -1px 0px 29px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 29px -6px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 29px -6px rgba(0,0,0,0.75);
+}
+.titl-prin{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.5em;
+}
+.box-rad1{
+  margin-top: 2%;
+  margin-bottom: 0%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.crd1{
+  background-color: #3cb371;
+}
+.crd1 {
+/*   margin-top: 3%; */
+  -webkit-box-shadow: -1px 0px 29px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 29px -6px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 29px -6px rgba(0,0,0,0.75); 
+}
+
+.crd2{
+  margin-top: -1%;
+  -webkit-box-shadow: -1px 0px 29px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 29px -6px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 29px -6px rgba(0,0,0,0.75);
+}
+.sec-1-comp{
+  margin-top: 25px;
+  margin-bottom: -85px;
+}
+.sec-2-comp{
+  margin-top: 10px;
+}
+.sec-1-ss{
+  margin-top: 2%;
+  margin-bottom: -10%;
+}
+.crd-emp{
+  margin-top: 2%;
+}
+div.log-stil{
+  background-color: #2e0638;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+.log-stil1 h5 {
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+.log-stil1 p {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+
+.sec-2{
+    margin-top: 20%;
+}
+
+
+
+
+
+/* DISTRIBUIDORES */
+.stil-img-dist{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width:500px ;
+  height:600px ;
+  }
+
+
+/* catalogo productos */
+
+.sec1-cat-prod{
+  margin-top: 1%;
+}
+.sec2-cat-prod{
+  margin-top: 2%;
+}
+.sec3-cat-prod{
+  margin-top: 2%;
+}
+.sec4-cat-prod{
+  margin-top: 2%;
+}
+.sec5-cat-prod{
+  margin-top: 2%;
+}
+.sec6-cat-prod{
+  margin-top: 2%;
+}
+.sec7-cat-prod{
+  margin-top: 2%;
+}
+.sec8-cat-prod{
+  margin-top:  2%;
+}
+.sec9-cat-prod{
+  margin-top: 2%;
+}
+.sec10-cat-prod{
+  margin-top: 2%;
+}
+.sec11-cat-prod{
+  margin-top: 2%;
+}
+.sec12-cat-prod{
+  margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+   /* padding-bottom: 5px;*/
+}
+section{
+  margin-top: 5%;
+  margin-bottom: 0%;
+ /*  padding-bottom: 2%; */
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 5px;/*50*/
+   /* padding-bottom: 5px;*/
+    text-transform: uppercase;
+}
+#footer {
+    background:#2e0638 !important;   
+
+
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+/*h4{
+  text-align: center;
+}
+
+
+video::-internal-media-controls-download-button {
+    display:none;
+}
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Ajústalo a tu gusto */
+}*/
+
